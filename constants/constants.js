@@ -1,6 +1,6 @@
 export const NAME = 'Nguyen Cong Hoang Phong';
 
-export const DESIGNATION = `Frontend Developer | Blogger`;
+export const DESIGNATION = `Frontend Developer`;
 
 export const DETAILS = {
   Residence: 'Viet Nam',
@@ -11,15 +11,19 @@ export const DETAILS = {
 export const SKILLS = [
   {
     title: 'ReactJS Developer',
-    level: '75%',
+    level: '85%',
   },
   {
     title: 'VueJS Developer',
     level: '75%',
   },
   {
+    title: 'NextJs Developer',
+    level: '75%',
+  },
+  {
     title: 'WordPress',
-    level: '65%',
+    level: '75%',
   },
   // {
   //   title: 'Desktop Application Developer',
@@ -50,7 +54,6 @@ export const TECH_STACK = [
   'Git',
   'GitHub',
   'Jira',
-  'Figma',
   'Canva',
 ];
 

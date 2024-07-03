@@ -3,7 +3,7 @@ import CardLayout from '../../Common/CardLayout'
 
 const RecommendationCard = ({ data }) => {
     return (
-        <CardLayout>
+        <CardLayout className='mt-5'>
             <div className="p-8 h-full relative card_stylings transition">
                 <img src={data?.image} className="absolute z-10 right-10 -top-5 border-Green w-16 h-16  border-[3px] rounded-full m-0" />
                 <div className=" text-Snow underline italic">

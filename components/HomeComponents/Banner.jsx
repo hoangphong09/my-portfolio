@@ -32,7 +32,7 @@ const Banner = () => {
                             <a href='https://www.facebook.com/simpleToSpecial99/' target="_blank" className="button" rel="noreferrer">Wanna know more about me</a>
                         </div>
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
+                            {/* <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" /> */}
                         </div>
                     </div>
                 </div>
