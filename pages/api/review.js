@@ -27,6 +27,13 @@ const review = [
         clientSource: '',
         clientReview: 'I have worked with Phong and he is very professional and excellent software  developer. I admire his speed of development and quality of work when given an assignment.'
     },
+    {
+        id: 5,
+        clientName: 'Ms. Le Hai Yen (Olivia Le)',
+        clientLocation: 'BenBen School | Viet Nam',
+        clientSource: '',
+        clientReview: 'He is such a reliable developer. I can see the hard work and effort that he put into his work. Having only one chance to work with him, I’m satisfied with everything. Hope we can work together in the future'
+    },
 ]
 export default function handler(req, res) {
     res.status(200).json(review)
